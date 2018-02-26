@@ -1,7 +1,7 @@
 {
   "name": "inline-sources",
   "version": "0.1.0",
-  "description": "",
+  "description": "A Node module that creates a single HTML file by inlining all <link> and <script> tags as well as following @import statements in css recursively.",
   "main": "inline-sources.js",
   "scripts": {
     "test": "cd example && node run-example && cd .. && echo See 'index.html' in 'example' folder"
