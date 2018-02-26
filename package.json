@@ -1,0 +1,23 @@
+{
+  "name": "inline-sources",
+  "version": "0.1.0",
+  "description": "",
+  "main": "inline-sources.js",
+  "scripts": {
+    "test": "cd example && node run-example && cd .. && echo See 'index.html' in 'example' folder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacekwilczynski/inline-sources.git"
+  },
+  "author": "Jacek Wilczyński <jacekwilczynski5@gmail.com> (https://github.com/jacekwilczynski)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacekwilczynski/inline-sources/issues"
+  },
+  "homepage": "https://github.com/jacekwilczynski/inline-sources#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fs-extra": "^5.0.0"
+  }
+}
