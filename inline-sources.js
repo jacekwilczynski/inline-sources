@@ -2,13 +2,6 @@ const path = require('path');
 const axios = require('axios');
 const fs = require('fs-extra');
 
-function request(path) {
-  let result;
-  requestAsync(path, function(error, response, body) { result = body });
-  do {} while (!result);
-  return result;
-}
-
 const linkTypes = {
   html: [{
     type: 'css',
