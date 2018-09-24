@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const path = require('path');
 const axios = require('axios');
 const fs = require('fs-extra');
@@ -82,3 +84,10 @@ async function run(entry, output) {
 }
 
 module.exports = run;
+
+(function runFromCommandLine() {
+  const [, , input, output] = process.argv;
+  if (input && output) {
+    run(input, output);
+  }
+})();
